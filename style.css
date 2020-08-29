@@ -1,0 +1,320 @@
+body{
+	background-color:black;
+	font-family: 'Baloo Bhai', cursive;
+	 -webkit-user-select: none;
+}
+
+.br-div{
+	height:10px;
+}
+
+.container{
+	width:1400px;
+	height:800px;
+}
+
+#starPlayer
+{
+	border-style: solid;
+	width:500px;
+	height:800px;
+	background-image:url('img/space.gif');
+}
+.starInfo{
+	height:200px;
+}
+#starName
+{
+	width:500px;
+	height:100px;
+	font-size:60px;
+	text-align: center;
+	background-color: transparent;
+	 border: 0px solid;
+  outline: none;
+	color:orange;
+
+}
+.starPlayerImg
+{
+	width:300px;
+	height: 250px;
+	background-image: url('img/planet.png');
+	margin: 0 auto;
+}
+
+
+#gamePanel
+{
+
+	width:864px;
+	height:100px;
+	background-color:#161f2d;
+	max-height: 100vh;
+	float:right;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.overflow
+{
+	border-style: solid;
+	width:864px;
+	height:700px;
+	background-color:#161f2d;
+	max-height: 100vh;
+
+	overflow: -moz-scrollbars-none;
+	overflow: auto !important;
+
+}
+
+#navbar
+{
+	width:864px;
+	height:100px;
+	background-color:#0c1119;
+	border: solid;
+	float:left;
+	margin: 0 auto;
+}
+.globgazord
+{
+	width:800px;
+	padding-left:10px;
+	font-size:20px;
+	height: 100px;
+	margin: 10px;
+	color:white;
+	background-image: url('img/buyparticle.gif');
+	border: #0bba0e solid 5px;
+	border-radius: 20px;
+	float:left;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	 background-repeat: repeat-x;
+
+}
+
+.buttonAll{
+	float:left;
+	width:90px;
+	height:20px;
+	margin:5px;
+	color:#2e3033;
+	text-align: center;
+	font-size:10px;
+	border-radius:10px;
+	border: 2px solid;
+	border-color: white;
+}
+
+
+.multiClick
+{
+	width:800px;
+	padding-left:10px;
+	font-size:20px;
+	height: 100px;
+	margin: 10px;
+	color:white;
+	background-image: url('img/buyschwim.gif');
+	border: #0bba0e solid 5px;
+	border-radius: 20px;
+	float:left;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.exchangeMatery
+{
+	width:800px;
+	padding-left:10px;
+	font-size:20px;
+	height: 100px;
+	margin: 10px;
+	color:white;
+	background-color:#d38f9a;
+	border: #0bba0e solid 5px;
+	border-radius: 20px;
+	float:left;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.exchangeEnergy
+{
+	width:800px;
+	padding-left:10px;
+	font-size:20px;
+	height: 100px;
+	margin: 10px;
+	color:white;
+	background-color:#889afc;
+	border: #0bba0e solid 5px;
+	border-radius: 20px;
+	float:left;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.globgazordMutation
+{
+	width:800px;
+	padding-left:10px;
+	font-size:20px;
+	height: 100px;
+	margin: 10px;
+	color:white;
+	background-image: url('img/buymutationglob.gif');
+	border: #0bba0e solid 5px;
+	border-radius: 20px;
+	float:left;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.schwimMutation
+{
+	width:800px;
+	padding-left:10px;
+	font-size:20px;
+	height: 100px;
+	margin: 10px;
+	color:white;
+	background-image: url('img/buymutationschwim.gif');
+	border: #0bba0e solid 5px;
+	border-radius: 20px;
+	float:left;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.schwimPower
+{
+	width:800px;
+	padding-left:10px;
+	font-size:20px;
+	height: 135px;
+	margin: 10px;
+	color:white;
+	background-color:#2c2d2d;
+	border: #0bba0e solid 5px;
+	border-radius: 20px;
+	float:left;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#bottom{
+	font-size:25px;
+	text-align:center;
+	color:orange;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.level
+{
+	width:800px;
+	padding-left:700px;
+	float:right;
+	font-size:40px;
+	height: 100px;
+	color:yellow;
+}
+.item2
+{
+	width:800px;
+	height: 100px;
+	margin: 10px;
+	color:white;
+	background-image: url('');
+	border: #0cff00 solid 5px;
+	border-radius: 20px;
+	float:left;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.atomCounter
+{
+	width:300px;
+	height:85px;
+	float:left;
+	text-align:center;
+	font-size:20px;
+	color:white;
+	display: block;
+}
+.atomAverage
+{
+	width:300px;
+	height:85px;
+  margin-left: 20px;
+	float:left;
+	text-align:center;
+	font-size:20px;
+	background-color:green;
+	border-radius: 50px;
+	display: block;
+}
+
+.load
+{
+	border: solid 2px;
+	width:200px;
+	height:85px;
+  margin-left: 20px;
+	float:left;
+	text-align:center;
+	font-size:20px;
+	background-color:#009129;
+	border-radius: 50px;
+	display: block;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.load:hover{
+	background-color:#00c638;
+}
+
+.alert
+{
+	width:500px;
+	height:40px;
+	background-color: red;
+}
+
+.clickPlus{
+height:150px;
+width:100px;
+position:absolute;
+font-size:30px;
+padding-left:100px;
+padding-top:100px;
+color:#32ff44;
+-webkit-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+.clickPlusSec{
+height:150px;
+width:100px;
+position:absolute;
+font-size:30px;
+padding-left:100px;
+padding-top:100px;
+color:#ff16eb;
+-moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}

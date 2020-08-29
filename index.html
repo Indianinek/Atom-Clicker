@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Star Clicker</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css"  />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+<body>
+
+
+<script src="jquery-3.1.1.min.js"></script>
+  <script src="script.js"></script>
+
+
+
+<div class="br-div"></div>
+
+<div class="container">
+
+  <div id="gamePanel" >
+    <div id="navbar">
+      <div class="br-div" style="height:6px;"> </div>
+      <div class="atomCounter"></div>
+      <div class="load" onclick="load()"><br>Wczytaj</div>
+    </div>
+    <div class="overflow">
+    <div class="globgazord" onclick="buyGlob()" >
+
+    </div>
+
+    <div class="multiClick" onclick="buyClickMultiplier()">
+    </div>
+
+    <div class="exchangeEnergy" onclick="exchangeEnergy()">
+    </div>
+
+    <div class="exchangeMatery" onclick="exchangeMatery()">
+    </div>
+
+    <div class="globgazordMutation" onclick="globgazordMutation()">
+    </div>
+
+    <div class="schwimMutation" onclick="schwimMutated()">
+    </div>
+
+    <div class="schwimPower" onclick="powerSchwim()">
+    </div>
+    
+  </div>
+
+
+
+  </div>
+
+  <div id="starPlayer">
+    <div class="starInfo" id="top">
+      <input type="text" id="starName" onclick="starName()" value="GEEGLON-12"></input>
+    </div>
+
+    <div class="starPlayerImg" onmouseup="planetNotClick()"  onmousedown="clickPlus()" onmousedown="planetClick()">
+
+  </div>
+    <div class="starInfo" id="bottom"></div>
+  </div>
+
+
+</div>
+
+
+
+
+
+</body>
+</html>
